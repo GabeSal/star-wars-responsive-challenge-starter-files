@@ -6,6 +6,7 @@
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Star Wars online trading cards test v1">
 
   <!-- Normalize.css, a cross-browser reset file -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
@@ -14,9 +15,76 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
-
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive-design-float.css">
 </head>
 <body>
+  <header class="col-12 navbar">
+      <h2>STAR WARS Characters</h1>
+      <p><em>Incomplete List</em></p>
+  </header>
+
+  <main class="row">
+    <div class="col-4">
+      <div class="card">
+        <img class="card-img" src="images/rey_square.png" alt="picture of Rey">
+        <div class="card-content">
+          <h3>Rey</h3>
+          <p>Protagonist, from Tatooine</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="card">
+        <img class="card-img" src="images/finn_square.png" alt="picture of Finn">
+        <div class="card-content">
+          <h3>Finn (FN-2187)</h3>
+          <p>Ex-Storm Trooper, befriends Rey</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div id="dark-side" class="card">
+        <img class="card-img" src="images/kylo_square.png" alt="picture of Kylo Ren">
+        <div id="dark-side" class="card-content">
+          <h3>Kylo Ren</h3>
+          <p>Main Antagonist, trained by Luke Skywalker</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="card">
+        <img class="card-img" src="images/poe_square.png" alt="picture of Poe">
+        <div class="card-content">
+          <h3>Poe</h3>
+          <p>Ace Pilot of the Rebels</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="card">
+        <img class="card-img" src="images/chewbacca_square.png" alt="picture of Chewbacca">
+        <div class="card-content">
+          <h3>Chewbacca ("Chewie")</h3>
+          <p>First mate and close friend of Han Solo</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div id="jedi" class="card">
+        <img class="card-img" src="images/yoda_square.png" alt="picture of Yoda">
+        <div id="jedi" class="card-content">
+          <h3>Yoda</h3>
+          <p>A great Jedi Master of the Republic</p>
+        </div>
+      </div>
+    </div>
+  </main>
 
 </body>
 </html>
